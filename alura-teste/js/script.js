@@ -1,17 +1,17 @@
 
-    var lessInfos = document.querySelector('.infos');
-    var btn = document.querySelector('.btn');
+    var info = document.querySelector('.infos__items');
+    // var infosItem = document.querySelector('.infos__item');
+    var btn = document.querySelector('.btn__link');
 collapse = () => {
     
-    if(lessInfos.style.maxHeight){
-        lessInfos.style.maxHeight = null;
+    if(info.style.maxHeight){
+        info.style.maxHeight = null;
         btn.innerHTML = "Mais Informações";
-        lessInfos.style.borderBottom = 'none';
+        info.style.borderBottom = 'none';
     }else{
-        lessInfos.style.maxHeight = lessInfos.scrollHeight + "px";
+        info.style.maxHeight = info.scrollHeight + "px";
         btn.innerHTML = "Menos Informações";
-        lessInfos.style.borderBottom = '3px solid #F4F4F4';
-        
+        info.style.borderBottom = '3px solid #F4F4F4';
     }
 
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,33 +10,33 @@
     <title>Carreira Java</title>
     <link rel="icon" href="img/favicon.ico">
 </head>
+
 <body>
     <section class="java">
-        <h1 class="h1">Carreira Java</h1>
+        <header class="container">
+            <h1 class="h1">Carreira Java</h1>
+        </header>
         <div class="card">
-            <div class="box">
-            <figure class="java-icon">
-                <img class="java-icon__img" src="img/icone-java.png" alt="Ícone Java"/>
-            </figure>
-            <article class="first-steps">
-                <h3 class="h3">Java I: Primeiros passos</h3>
-                <ul class="first-steps__items">
-                        <li class="first-steps__item">JVM? JDK? JRE? O que são essas siglas?</li>
-                        <li class="first-steps__item">Váriaveis e controle fluxo</li>
-                        <li class="first-steps__item">Orientação a objetos e seu código melhorado</li>
-                        <li class="first-steps__item">Modificadores de acesso e encapsulamento</li>
-                        <li class="first-steps__item">Superando o trauma das arrays</li>
-                    </ul>
-            </article>
-        </div>
-            <div class="collapsible">
-                <!-- <div class="more-infos">
-                    <div class="wrap">
-                        <a class="btn" onclick="collapse()">Mais Informações</a>
-                    </div> -->
+            <div class="container">
+                <div class="box">
+                    <figure class="java-icon">
+                        <img class="java-icon__img" src="img/icone-java.png" alt="Ícone Java" />
+                    </figure>
+                    <article class="first-steps">
+                        <h3 class="h3">Java I: Primeiros passos</h3>
+                        <ul class="first-steps__items">
+                            <li class="first-steps__item">JVM? JDK? JRE? O que são essas siglas?</li>
+                            <li class="first-steps__item">Váriaveis e controle fluxo</li>
+                            <li class="first-steps__item">Orientação a objetos e seu código melhorado</li>
+                            <li class="first-steps__item">Modificadores de acesso e encapsulamento</li>
+                            <li class="first-steps__item">Superando o trauma das arrays</li>
+                        </ul>
+                    </article>
                 </div>
-                <div class="less-infos">
-                    <ul class="infos">
+            </div>
+            <div class="collapsible">
+                <div class="infos">
+                    <ul class="infos__items">
                         <li class="infos__item">
                             <img src="img/icone.png">
                             <p>Nível Básico</p>
@@ -49,8 +50,10 @@
                             <p>110 minutos de vídeo</p>
                         </li>
                     </ul>
-                    <div class="wrap">
-                        <a class="btn" onclick="collapse()"><spam>Mais Informações</spam></a>
+                    <div class="btn">
+                        <a class="btn__link" onclick="collapse()">
+                            <spam>Mais Informações</spam>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -58,4 +61,5 @@
     </section>
     <script src="js/script.js"></script>
 </body>
+
 </html>
